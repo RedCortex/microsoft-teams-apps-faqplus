@@ -37,7 +37,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                         HorizontalAlignment = textAlignment,
                     },
                 },
-                Actions = new List<AdaptiveAction>
+                /*Actions = new List<AdaptiveAction>
                 {
                     new AdaptiveSubmitAction
                     {
@@ -53,7 +53,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                             UserQuestion = userQuestion,
                         },
                     },
-                },
+                },*/
             };
 
             return new Attachment

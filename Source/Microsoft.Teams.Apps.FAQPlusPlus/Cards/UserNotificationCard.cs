@@ -78,12 +78,12 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                         Title = Strings.AskAnExpertButtonText,
                         Data = new TeamsAdaptiveSubmitActionData
                         {
-                            MsTeams = new CardAction
+                            /*MsTeams = new CardAction
                             {
                                 Type = ActionTypes.MessageBack,
                                 DisplayText = Strings.AskAnExpertDisplayText,
                                 Text = Constants.AskAnExpert,
-                            },
+                            },*/
                         },
                     },
                 };
