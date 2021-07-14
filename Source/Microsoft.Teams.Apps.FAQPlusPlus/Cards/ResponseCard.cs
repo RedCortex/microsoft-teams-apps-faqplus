@@ -256,7 +256,8 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                 },
             };
 
-            //return actionsList;
+            // return actionsList;
+            return null;
         }
 
         /// <summary>

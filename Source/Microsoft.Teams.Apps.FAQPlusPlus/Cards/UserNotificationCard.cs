@@ -69,7 +69,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
         /// <returns>A list of adaptive card actions.</returns>
         private static List<AdaptiveAction> BuildActions(TicketEntity ticket)
         {
-            //if (ticket.Status == (int)TicketState.Closed)
+            // if (ticket.Status == (int)TicketState.Closed)
             if (ticket.Status == 1234567)
             {
                 return new List<AdaptiveAction>
