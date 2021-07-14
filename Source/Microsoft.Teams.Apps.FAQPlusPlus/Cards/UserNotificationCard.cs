@@ -67,7 +67,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
         /// </summary>
         /// <param name="ticket">The current ticket information.</param>
         /// <returns>A list of adaptive card actions.</returns>
-        private static List<AdaptiveAction> BuildActions(TicketEntity ticket)
+        /*private static List<AdaptiveAction> BuildActions(TicketEntity ticket)
         {
             if (ticket.Status == (int)TicketState.Closed)
             {
@@ -78,19 +78,19 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                         Title = Strings.AskAnExpertButtonText,
                         Data = new TeamsAdaptiveSubmitActionData
                         {
-                            /*MsTeams = new CardAction
+                            MsTeams = new CardAction
                             {
                                 Type = ActionTypes.MessageBack,
                                 DisplayText = Strings.AskAnExpertDisplayText,
                                 Text = Constants.AskAnExpert,
-                            },*/
+                            },
                         },
                     },
                 };
             }
 
             return null;
-        }
+        }*/
 
         /// <summary>
         /// Building the fact set to render out the user facing details.
