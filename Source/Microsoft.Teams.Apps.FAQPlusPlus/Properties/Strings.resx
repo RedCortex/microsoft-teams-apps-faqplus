@@ -208,7 +208,13 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Welcome message when bot is added to a new team.</comment>
   </data>
   <data name="CustomMessage" xml:space="preserve">
-    <value>I didn't find a matching answer for this question. Please speak to your local service desk, who will be able to help.</value>
+    <value>There is not a direct answer for this question, but you can find a huge amount of resources relating to this through the Learning Pathways site.
+
+Go to All Office 365 Applications and click on any of the app icons to find quick guides, helpful hints and links relating to that app.
+
+or
+
+Go to Learning Pathways - Training Videos to access a library of training videos relating to all apps available within the O365 suite.</value>
     <comment>Message when user asks random question to the bot.</comment>
   </data>
   <data name="QuestionAskedFactTitle" xml:space="preserve">

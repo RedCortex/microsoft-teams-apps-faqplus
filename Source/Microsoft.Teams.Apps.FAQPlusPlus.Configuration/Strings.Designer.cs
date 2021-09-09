@@ -65,9 +65,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Configuration {
         ///
         ///My key features:
         ///
-        ///* Ask a question, get an answer
-        ///* Ask an expert
-        ///* Share feedback.
+        ///* Ask a question, get an answer.
         /// </summary>
         public static string DefaultHelpTabText {
             get {

@@ -122,9 +122,7 @@
 
 My key features:
 
-* Ask a question, get an answer
-* Ask an expert
-* Share feedback</value>
+* Ask a question, get an answer</value>
     <comment>Default help static tab text to be stored in configuration app</comment>
   </data>
   <data name="DefaultWelcomeMessage" xml:space="preserve">
